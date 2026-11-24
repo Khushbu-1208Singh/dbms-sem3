@@ -1,0 +1,4 @@
+{ "name": "exam-guard-mongo", "version": "1.0.0", "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --env-file=.env server.js", "seed": "node --env-file=.env seed.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2", "mongodb": "^6.8.0" } }
